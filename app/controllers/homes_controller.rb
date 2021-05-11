@@ -1,6 +1,5 @@
 class HomesController < ApplicationController
-  def index
-    @homes= Book.all
+  def top
   end
   
 end
